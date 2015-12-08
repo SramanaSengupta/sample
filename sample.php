@@ -4,9 +4,9 @@
   
   //Email information
   $admin_email = "someone@example.com";
-  $email = $_REQUEST['email1'];
-  $subject = $_REQUEST['subject11'];
-  $comment = $_REQUEST['comment1'];
+  $email = $_REQUEST['email56'];
+  $subject = $_REQUEST['subject78'];
+  $comment = $_REQUEST['comment89'];
   
   //send email
   mail($admin_email, "$subject", $comment, "From:" . $email);
