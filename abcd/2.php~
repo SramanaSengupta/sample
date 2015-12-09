@@ -1,5 +1,5 @@
 <?php
-$ch1 = curl_init($sub_req_url);
+$ch = curl_init($sub_req_url);
 $encoded = '';
 // include GET as well as POST variables; your needs may vary.
 foreach($_GET as $name => $value) {
